@@ -101,6 +101,21 @@ section::before{
 #work-3:hover::after{
     content:'Food Web Project'
 }
+
+.contact{
+    padding-bottom: 128px;
+}
+.form::before{
+    content: 'Contact';
+}
+.contact-form{
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label{
+    font-weight: 700;
+}
 @keyframes upDown{
     0%{
         transform: translateY(0)
